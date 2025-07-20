@@ -1,0 +1,21 @@
+{
+  "name": "myer-monitor",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.2.18",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "drizzle-orm": "^0.44.3",
+    "node-cron": "^4.2.1",
+    "pg": "^8.16.3"
+  }
+}
