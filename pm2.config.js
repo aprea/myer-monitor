@@ -15,7 +15,7 @@ export const apps = [
 	{
 		name: 'myer-monitor-pokemon',
 		script: 'index.ts',
-		args: '-q tcg -f pokemon',
+		args: '-q tcg',
 		interpreter: 'bun',
 		env: {
 			NODE_ENV: 'production',
